@@ -397,8 +397,9 @@ if __name__ == "__main__":
 
     # Initialize the bot
     # Change your model & API ket path according to your needs
-    bot = Doubao("doubao_api.txt", model = "doubao-1.5-thinking-vision-pro-250428")
-    # bot = Qwen("qwen_api.txt", model="qwen2.5-vl-72b-instruct")
+    # bot = Doubao("doubao_api.txt", model = "doubao-1.5-thinking-vision-pro-250428")
+    bot = Qwen("qwen_api.txt", model="qwen2.5-vl-72b-instruct")
+    # bot = Qwen("qwen_api.txt", model="qwen-plus")
     # bot = GPT("gpt_api.txt", model="gpt-4o")
     # bot = Gemini("gemini_api.txt", model="gemini-1.5-flash-latest")
     

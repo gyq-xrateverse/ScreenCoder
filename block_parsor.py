@@ -4,7 +4,7 @@ import json
 from utils import Doubao, Qwen, GPT, Gemini, encode_image, image_mask
 
 DEFAULT_IMAGE_PATH = "data/input/test1.png"
-DEFAULT_API_PATH = "doubao_api.txt"  # Change the API key path for different models (i.e. doubao, qwen, gpt, gemini).
+DEFAULT_API_PATH = "qwen_api.txt"  # Change the API key path for different models (i.e. doubao, qwen, gpt, gemini).
 
 # We provide prompts in both Chinese and English.
 PROMPT_MERGE = "Return the bounding boxes of the sidebar, main content, header, and navigation in this webpage screenshot. Please only return the corresponding bounding boxes. Note: 1. The areas should not overlap; 2. All text information and other content should be framed inside; 3. Try to keep it compact without leaving a lot of blank space; 4. Output a label and the corresponding bounding box for each line."
